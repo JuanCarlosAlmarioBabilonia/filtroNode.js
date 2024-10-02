@@ -10,6 +10,7 @@ body{
 .textoResultante{
     display: flex;
     justify-content: center;
+    font-size: 15px;
 }
 
 .a {
@@ -31,6 +32,7 @@ body{
     border:none;
     width:1186px;
     font-size: 25px;
+    font-family: "fuente";
 }
 
 .input2{
@@ -95,45 +97,68 @@ body{
 .desencriptarButton {
     width:45%;
     font-size: 25px;
+    border: 1px solid var(--bg-button-prymary);
+    border-radius: 20px;
     height:7vh
 }
 
-/* @media screen and (max-width: 600px) {
-    .title-container h2 {
-        font-size: 18px;
-    }
+.encriptarButton{
+    background-color: var(--bg-button-prymary);
+    color: var(--bg-quarter)
+}
 
-    .movie-poster img {
-        border-radius: 5px;
-    }
+.desencriptarButton{
+    background-color: var(--bg-tertiary);
+}
 
-    .trailer-container {
-        padding: 8px;
-        height: 11px;
-    }
+.encriptarButton:hover,
+.desencriptarButton:hover {
+    background-color:var(--color-tertiary);
+    color: var(--bg-quarter)
+}
 
-    .watch-trailer {
-        font-size: 9px;
-    }
-
-    .cast-member img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .text-cast h1{
-        font-family: "InterSemiBold";
-    }
-
+@media screen and (max-width: 600px) {
     body{
-        height:150vh
+        display: flex;
+        flex-direction: column;
     }
 
-    .text-cast{
-        width:70px;
-      }
+    .a {
+        margin-left: -10px;
+        height:0
+    }
 
-} */
+    .a img{
+        margin-top: 22px;
+        width:100px;
+        height:40px
+    }
+
+    .input{   
+        margin-top: 80px;
+        margin-left: 25px;
+        font-size: 20px;
+        width:370px;
+    }
+
+    .exclamationMessage{
+        margin-top: 50px;
+        margin-left: 25px;
+
+    }
+    .buttons{
+        margin-left: 25px;
+    }
+
+    .encriptarButton,
+    .desencriptarButton {
+        width:300px;
+    }
+    .exclamationMessage{
+        width:100%
+
+    }
+}
 
 /* @media screen and (min-width: 600px) and (max-width: 1024px) {
     .title-container h2 {
