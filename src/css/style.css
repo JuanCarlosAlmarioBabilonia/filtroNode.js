@@ -1,0 +1,301 @@
+@import url("variables.css");
+
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-secondary);
+    font-family: "fuente";
+}
+
+.textoResultante{
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    width:10%;
+    height:98vh
+}
+
+.a img{
+    margin-top: 22px;
+    width:55%;
+    height:40px
+}
+
+.input{   
+    margin-top: 150px;
+    background-color: var(--bg-secondary);
+    border:none;
+    width:1186px;
+    font-size: 25px;
+}
+
+.input2{
+    /* border:1px solid blue; */
+    border:none;
+    font-size: 15.9px;
+    height:10vh;
+    margin-top:-25px
+}
+
+.encriptacion{
+    /* border: 1px solid black; */
+    width:65%;
+    height:98vh
+}
+
+.exclamationMessage{
+    margin-top: 550px;
+    font-size: 20px;
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+}
+
+.exclamationImage{
+    margin-top: 20px;
+    width:20px;
+    height:20px
+}
+
+.resultProcess{
+    /* border:1px solid black; */
+    height:94.7vh;
+    padding:15px;
+    width:20.5%
+}
+
+.cuadro{
+    /* border: 1px solid blue; */
+    background-color: var(--color-prymary);
+    border-radius: 25px;
+    height:94vh
+}
+
+.muñeco{
+    margin-top: 200px;
+}
+
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap:25px
+}
+
+.encriptarButton,
+.desencriptarButton {
+    width:45%;
+    font-size: 25px;
+    height:7vh
+}
+
+/* @media screen and (max-width: 600px) {
+    .title-container h2 {
+        font-size: 18px;
+    }
+
+    .movie-poster img {
+        border-radius: 5px;
+    }
+
+    .trailer-container {
+        padding: 8px;
+        height: 11px;
+    }
+
+    .watch-trailer {
+        font-size: 9px;
+    }
+
+    .cast-member img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .text-cast h1{
+        font-family: "InterSemiBold";
+    }
+
+    body{
+        height:150vh
+    }
+
+    .text-cast{
+        width:70px;
+      }
+
+} */
+
+/* @media screen and (min-width: 600px) and (max-width: 1024px) {
+    .title-container h2 {
+        font-size: 22px;
+    }
+
+    .movie-info {
+        max-width: 100%;
+    }
+
+    .content-wrapper {
+        max-width: 95%;
+    }
+
+    .cast-member img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .title-container h2,
+    .cast h3 {
+        font-size: 30px;
+    }
+
+    .description, .genre{
+        font-size: 15px;
+    }
+
+    .nav h1{
+        font-size: 25px;
+    }
+
+    .back-button, .more-options {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .text-cast{
+        width:80px;
+      }
+
+      .cast-list {
+        gap:1px
+    }
+
+    body{
+        height:120vh
+    }
+
+    .cinema-option {
+        padding: 15px;
+        width:93%
+    }
+
+} */
+
+/* Ajustes para pantallas grandes (computadoras de escritorio)
+@media screen and (min-width: 1024px) {
+
+    body{
+        height:200vh
+    }
+    
+    .title-container h2,
+    .cast h3 {
+        font-size: 40px;
+    }
+
+    .cast-list {
+        gap:20px
+    }
+
+    .cast-member img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cast-member {
+        margin-top: 10px;
+    }
+
+    .cinema-option {
+        padding: 20px;
+        width:96%
+    }
+
+    .cast {
+        margin-top: 40px;
+    }
+
+    .cast-member p{
+        font-size: 20px;
+    }
+
+    .genre{
+        margin-top: -25px;
+        font-size: 25px;
+    }
+
+    .description{
+        font-size: 25px;
+    }
+
+    .trailer-container{
+        margin-top: 20px;
+        padding:25px
+    }
+
+    .watch-trailer{
+        font-size: 25px;
+    }
+
+    .trailer-icon{
+        width: 20px;
+        height: 20px
+      }
+
+      .cast-member h2 {
+        margin: 0;
+        font-size: 22px;
+        font-family: "PoppinsSemiBold";
+      }
+    
+      .cast-member p {
+        margin: 0;
+        font-size: 22px;
+        font-family: "PoppinsLight";
+      }
+
+      .text-cast{
+        width:220px;
+      }
+
+      .cinema h3{
+        font-size: 35px;
+      }
+
+      .cinema-info h4 {
+        margin-top: 4px;
+        font-size: 20px;
+        }
+    
+      .cinema-info p {
+        font-size: 16px;
+      }
+
+      .back-button, .more-options {
+        width: 40px; 
+        height: 40px;
+    }
+
+    .nav h1{
+        font-size: 35px;
+    }
+
+    .book-now {
+        font-size: 25px;
+    }
+
+    .movie-poster img {
+        height:400px
+    }
+    
+} 
